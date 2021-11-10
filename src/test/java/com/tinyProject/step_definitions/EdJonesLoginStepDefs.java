@@ -7,6 +7,7 @@ import com.tinyProject.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.AfterClass;
 import org.junit.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -35,6 +36,8 @@ public class EdJonesLoginStepDefs {
         String expectedTitle = "Logon: Enter User ID | Edward Jones Account Access";
         Assert.assertEquals(Driver.getDriver().getTitle(), expectedTitle);
         System.out.println("Actual Title matches Expected title");
+
+        Driver.closeDriver();
     }
 
 }

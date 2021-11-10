@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-10T17:29:54.191Z",
+        "start_timestamp": "2021-11-10T17:45:47.484Z",
         "line": 4,
         "name": "User should be able to click on Login button on main page.",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4847000000,
+              "duration": 5183000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 2215000000,
+              "duration": 3484000000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 77000000,
+              "duration": 171000000,
               "status": "passed"
             },
             "line": 7,
